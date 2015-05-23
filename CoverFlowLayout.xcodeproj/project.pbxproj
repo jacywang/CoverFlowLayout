@@ -14,6 +14,7 @@
 		9C519F671B10157100A8044D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C519F651B10157100A8044D /* LaunchScreen.xib */; };
 		9C519F731B10157100A8044D /* CoverFlowLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C519F721B10157100A8044D /* CoverFlowLayoutTests.m */; };
 		9C519F811B101A9A00A8044D /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C519F801B101A9A00A8044D /* CollectionViewController.m */; };
+		9C519F841B101B9100A8044D /* CoverFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C519F831B101B9100A8044D /* CoverFlowLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		9C519F721B10157100A8044D /* CoverFlowLayoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoverFlowLayoutTests.m; sourceTree = "<group>"; };
 		9C519F7F1B101A9A00A8044D /* CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
 		9C519F801B101A9A00A8044D /* CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
+		9C519F821B101B9100A8044D /* CoverFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoverFlowLayout.h; sourceTree = "<group>"; };
+		9C519F831B101B9100A8044D /* CoverFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoverFlowLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				9C519F601B10157100A8044D /* Main.storyboard */,
 				9C519F7F1B101A9A00A8044D /* CollectionViewController.h */,
 				9C519F801B101A9A00A8044D /* CollectionViewController.m */,
+				9C519F821B101B9100A8044D /* CoverFlowLayout.h */,
+				9C519F831B101B9100A8044D /* CoverFlowLayout.m */,
 				9C519F631B10157100A8044D /* Images.xcassets */,
 				9C519F651B10157100A8044D /* LaunchScreen.xib */,
 				9C519F561B10157000A8044D /* Supporting Files */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C519F5C1B10157000A8044D /* AppDelegate.m in Sources */,
+				9C519F841B101B9100A8044D /* CoverFlowLayout.m in Sources */,
 				9C519F591B10157000A8044D /* main.m in Sources */,
 				9C519F811B101A9A00A8044D /* CollectionViewController.m in Sources */,
 			);
