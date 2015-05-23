@@ -10,4 +10,13 @@
 
 @implementation CoverFlowLayout
 
+-(void)prepareLayout {
+    [super prepareLayout];
+    
+    self.scrollDirection = UICollectionViewScrollDirectionHorizontal;
+    self.itemSize = CGSizeMake(150, 100);
+}
+
+
+
 @end
